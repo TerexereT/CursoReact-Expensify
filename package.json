@@ -11,11 +11,12 @@
     "dev-server": "webpack-dev-server",
     "test": "jest --config=jest.config.json",
     "start": "node server/server.js",
+    "heroku-prebuild": "yarn install",
     "heroku-postbuild": "yarn run build:prod"
   },
   "dependencies": {
     "babel-cli": "6.24.1",
-    "babel-core": "6.25.0",
+    "babel-core": "^6.26.3",
     "babel-loader": "7.1.1",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
