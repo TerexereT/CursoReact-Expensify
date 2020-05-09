@@ -5,6 +5,7 @@ import {addExpense} from '../actions/expenses'
 
 export class AddExpenseDBPage extends React.Component {
   onSubmit = (expense)=>{
+    
     this.props.addExpense(expense)
     this.props.history.push('/')
   }

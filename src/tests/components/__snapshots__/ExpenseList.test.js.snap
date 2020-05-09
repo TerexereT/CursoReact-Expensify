@@ -1,321 +1,38 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`render expenselist con expenses 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ExpenseList
-    expenses={
-        Array [
-            Object {
-              "amount": 2321,
-              "createdAt": 0,
-              "description": "hola",
-              "id": "0",
-              "note": "",
-            },
-            Object {
-              "amount": 11321,
-              "createdAt": -345600000,
-              "description": "como",
-              "id": "1",
-              "note": "",
-            },
-            Object {
-              "amount": 3321,
-              "createdAt": 345600000,
-              "description": "estas",
-              "id": "2",
-              "note": "",
-            },
-          ]
-    }
-/>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "host",
-    "props": Object {
-      "children": Array [
-        <ExpenseListItem
-          amount={2321}
-          createdAt={0}
-          description="hola"
-          id="0"
-          note=""
-/>,
-        <ExpenseListItem
-          amount={11321}
-          createdAt={-345600000}
-          description="como"
-          id="1"
-          note=""
-/>,
-        <ExpenseListItem
-          amount={3321}
-          createdAt={345600000}
-          description="estas"
-          id="2"
-          note=""
-/>,
-      ],
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": "0",
-        "nodeType": "function",
-        "props": Object {
-          "amount": 2321,
-          "createdAt": 0,
-          "description": "hola",
-          "id": "0",
-          "note": "",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "1",
-        "nodeType": "function",
-        "props": Object {
-          "amount": 11321,
-          "createdAt": -345600000,
-          "description": "como",
-          "id": "1",
-          "note": "",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "2",
-        "nodeType": "function",
-        "props": Object {
-          "amount": 3321,
-          "createdAt": 345600000,
-          "description": "estas",
-          "id": "2",
-          "note": "",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-    ],
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          <ExpenseListItem
-            amount={2321}
-            createdAt={0}
-            description="hola"
-            id="0"
-            note=""
-/>,
-          <ExpenseListItem
-            amount={11321}
-            createdAt={-345600000}
-            description="como"
-            id="1"
-            note=""
-/>,
-          <ExpenseListItem
-            amount={3321}
-            createdAt={345600000}
-            description="estas"
-            id="2"
-            note=""
-/>,
-        ],
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": "0",
-          "nodeType": "function",
-          "props": Object {
-            "amount": 2321,
-            "createdAt": 0,
-            "description": "hola",
-            "id": "0",
-            "note": "",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "1",
-          "nodeType": "function",
-          "props": Object {
-            "amount": 11321,
-            "createdAt": -345600000,
-            "description": "como",
-            "id": "1",
-            "note": "",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "2",
-          "nodeType": "function",
-          "props": Object {
-            "amount": 3321,
-            "createdAt": 345600000,
-            "description": "estas",
-            "id": "2",
-            "note": "",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-      ],
-      "type": "div",
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": false,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": false,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-    Symbol(enzyme.__providerValues__): undefined,
-  },
-  Symbol(enzyme.__providerValues__): Map {},
-}
+<div>
+  <ExpenseListItem
+    amount={2321}
+    createdAt={0}
+    description="hola"
+    id="0"
+    key="0"
+    note=""
+  />
+  <ExpenseListItem
+    amount={11321}
+    createdAt={-345600000}
+    description="como"
+    id="1"
+    key="1"
+    note=""
+  />
+  <ExpenseListItem
+    amount={3321}
+    createdAt={345600000}
+    description="estas"
+    id="2"
+    key="2"
+    note=""
+  />
+</div>
 `;
 
 exports[`render expenselist sin expenses 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ExpenseList
-    expenses={Array []}
-/>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "host",
-    "props": Object {
-      "children": <p>
-        No Expenses
-</p>,
-    },
-    "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": "No Expenses",
-      },
-      "ref": null,
-      "rendered": "No Expenses",
-      "type": "p",
-    },
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": <p>
-          No Expenses
-</p>,
-      },
-      "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "No Expenses",
-        },
-        "ref": null,
-        "rendered": "No Expenses",
-        "type": "p",
-      },
-      "type": "div",
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": false,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": false,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-    Symbol(enzyme.__providerValues__): undefined,
-  },
-  Symbol(enzyme.__providerValues__): Map {},
-}
+<div>
+  <p>
+    No Expenses
+  </p>
+</div>
 `;
