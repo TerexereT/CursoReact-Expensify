@@ -3,3 +3,4 @@ babel src/app.js --out-file=public/scripts/app.js --presets=react,env --watch
 babel src/sandbox/ --out-file=public/scripts/app.js --presets=react,env --watch
 
 yarn run dev-server
+yarn test -- --watch

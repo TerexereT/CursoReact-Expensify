@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ver si muestra para 1 expense 1`] = `
+<div>
+  <h1>
+    Viendo 
+    1
+     
+    expense
+     de un total de 
+    $0.00
+  </h1>
+</div>
+`;
+
+exports[`ver si muestra para 2 o mas expenses 1`] = `
+<div>
+  <h1>
+    Viendo 
+    23
+     
+    expenses
+     de un total de 
+    $0.00
+  </h1>
+</div>
+`;
