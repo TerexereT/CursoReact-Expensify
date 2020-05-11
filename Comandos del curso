@@ -2,5 +2,6 @@ live-server public
 babel src/app.js --out-file=public/scripts/app.js --presets=react,env --watch
 babel src/sandbox/ --out-file=public/scripts/app.js --presets=react,env --watch
 
+yarn run start //Para produccion
 yarn run dev-server
 yarn test -- --watch
