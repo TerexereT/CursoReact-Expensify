@@ -4,9 +4,8 @@ import {Router, Route, Switch, Link, NavLink} from 'react-router-dom'
 import ExpenseDBPage from '../components/Dashboard'
 import AddExpenseDBPage from '../components/AddExpense'
 import EditExpenseDBPage from '../components/EditExpense'
-import HelpExpenseDBPage from '../components/Help'
+import PublicRoute from './PublicRoute'
 import NotFoundDBPage from '../components/NotFound'
-
 import LoginPage from '../components/LoginPage'
 import PrivateRoute from './PrivateRoute'
 
@@ -17,7 +16,7 @@ const AppRouter = () => (
         <div>
 
             <Switch>
-                <Route
+                <PublicRoute
                 path="/"
                 component={LoginPage}
                 exact={true}            
@@ -35,11 +34,8 @@ const AppRouter = () => (
                     path="/edit/:id"
                     component={EditExpenseDBPage}
                 />
-                <Route 
-                    path="/help"
-                    component={HelpExpenseDBPage}
-                />
-                <Route  
+
+                <PublicRoute  
                     component={NotFoundDBPage}
                 />
             </Switch>
